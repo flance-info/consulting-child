@@ -1,0 +1,98 @@
+/*
+    Template: consulting
+    Theme Name: Consulting Child Theme
+    Theme URI: http://consulting.stylemixthemes.com/
+    Author: StylemixThemes
+    Author URI: http://stylemixthemes.com/
+    Description: Consulting - Business and Finance WordPress theme. Using Consluting you can easily create a modern website with real content. Easily edit the real content and compose the page layout with drag & drop page builder Consulting is the best ever finance, consulting, brokerage WordPress theme. It’s fully Responsive and Easy to Customize using intuitive Drag & Drop Visual Composer and Theme Options panel in WordPress Customizer.
+    Version: 4.0.2
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Tags: blue, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, fluid-layout, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, sticky-post, translation-ready
+    Text Domain: consulting-child-theme
+*/
+
+.tfr_hero {
+	max-width: 1140px;
+	margin: 0 auto !important;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.tfr_hero_wrap > .vc_column_container > .vc_column-inner {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.tfr_h2 h2 {
+	line-height: 1;
+	font-size: 74px;
+}
+
+.tfr_h2 h2:after {
+	margin: 20px 0 0;
+}
+
+.tfr_list p {
+	line-height: 1;
+}
+
+.tfr_list strong {
+	font-size: 2.2rem;
+	font-weight: 600;
+}
+
+.tfr_button {
+	background-color: rgb(0, 86, 150);
+	font-size: 2.2rem;
+	color: #fff;
+	padding: 4px 60px 7px;
+	box-shadow: rgb(0 0 0 / 25%) 0px 10px 20px 0px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: all .2s ease-in-out;
+}
+
+.tfr_button:hover {
+	background-color: rgb(0, 122, 255);
+	color: #fff;
+	text-decoration: none;
+}
+
+.wpb_single_image.tfr_image img {
+	max-height: 100% !important;
+}
+
+@media all and (max-width: 1200px) {
+	.tfr_h2 h2 {
+		font-size: 62px;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	.tfr_h2 h2 {
+		font-size: 48px;
+	}
+}
+
+@media all and (max-width: 767px) {
+	.tfr_image {
+		margin-top: 70px;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.tfr_h2 h2 {
+		font-size: 36px;
+	}
+	
+	.tfr_list strong {
+		font-size: 1.8rem;
+	}
+	
+	.tfr_button {
+		font-size: 28px;
+		padding: 4px 32px 7px;
+	}
+}
