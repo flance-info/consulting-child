@@ -471,18 +471,11 @@ text-transform: uppercase;
                                 <?php endif; ?>
                             </div>
                         </div>
+
                         <div class="top_nav">
                             <div class="container">
                                 <div class="top_nav_wrapper clearfix">
-                                    <?php
-                                    wp_nav_menu(array(
-                                            'theme_location' => 'consulting-primary_menu',
-                                            'container' => false,
-                                            'depth' => 4,
-                                            'menu_class' => 'main_menu_nav'
-                                        )
-                                    );
-                                    ?>
+                                   
                                     <?php if (consulting_get_header_style() != 'header_style_4' && $header_phone = get_theme_mod('header_phone', '')): ?>
                                         <div class="icon_text clearfix">
                                             <div class="icon"><i

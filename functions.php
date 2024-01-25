@@ -1,5 +1,6 @@
 <?php
-
+error_reporting(0);
+ini_set('display_errors', 0);
 add_action( 'wp_enqueue_scripts', 'consulting_child_enqueue_parent_styles');
 
 function consulting_child_enqueue_parent_styles() {
