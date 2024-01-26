@@ -71,7 +71,9 @@ text-transform: uppercase;
 </head>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-<?php do_action('consulting_before_header'); ?>
+<?php do_action('consulting_before_header');
+
+?>
 <div id="wrapper">
     <div id="fullpage" class="content_wrapper">
         <?php if (!is_404()): ?>

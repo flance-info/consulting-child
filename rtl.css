@@ -1046,3 +1046,8 @@ body.site_layout_15 #footer .footer_widgets .widget.widget_mc4wp_form_widget for
 #wp-admin-bar-vc_inline-admin-bar-link a {
   white-space: nowrap;
 }
+
+.stm-header__hb .stm-navigation__default>ul>li ul {
+  left: auto;
+  right: 15px !important;
+}
