@@ -15,6 +15,16 @@ function consulting_child_enqueue_parent_styles() {
         wp_enqueue_style( 'child-style', get_stylesheet_uri(), array( 'consulting-layout', 'stm-skin-custom-generated' ), $css_version, 'all' );
     }
 
+	if ( ! is_admin() ) {
+		//wp_deregister_style( 'consulting-layout' );
+		//wp_dequeue_style('consulting-layout');
+
+		$consulting_config = consulting_config();
+
+		wp_register_style( 'consulting-layout_child', get_stylesheet_directory_uri() . '/assets/css/layouts/' . $consulting_config['layout'] . '/main.css', null, CONSULTING_THEME_VERSION, 'all' );
+		wp_enqueue_style( 'consulting-layout_child' );
+
+	}
 
 }
 
