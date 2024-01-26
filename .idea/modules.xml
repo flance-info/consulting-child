@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../consulting/.idea/consulting.iml" filepath="$PROJECT_DIR$/../consulting/.idea/consulting.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/consulting-child.iml" filepath="$PROJECT_DIR$/.idea/consulting-child.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../backups/consulting_mod/.idea/consulting_mod.iml" filepath="$PROJECT_DIR$/../backups/consulting_mod/.idea/consulting_mod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../backups/consulting_old/.idea/consulting_old.iml" filepath="$PROJECT_DIR$/../backups/consulting_old/.idea/consulting_old.iml" />
     </modules>
   </component>
 </project>
