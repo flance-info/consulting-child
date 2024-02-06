@@ -20431,7 +20431,9 @@ body .vc_general.vc_btn3.vc_btn3-color-theme_style_5.vc_btn3-style-outline:hover
 }
 
 #menu-primary-navigation-1.main_menu_nav>li .sub-menu {
-
     width: unset;
+}
 
+#menu-primary-navigation-1.main_menu_nav>li .sub-menu>li .sub-menu{
+	left:unset;
 }
