@@ -24,6 +24,17 @@ function consulting_child_enqueue_parent_styles() {
 		wp_register_style( 'consulting-layout_child', get_stylesheet_directory_uri() . '/assets/css/layouts/' . $consulting_config['layout'] . '/main.css', null, CONSULTING_THEME_VERSION, 'all' );
 		wp_enqueue_style( 'consulting-layout_child' );
 
+		wp_enqueue_script(
+				'consulting-custom-child',
+				get_stylesheet_directory_uri() . '/assets/js/custom.js',
+				array( 'jquery', 'consulting-custom' ),
+				time(),
+				array(
+					'strategy'  => 'defer',
+					'in_footer' => true,
+				)
+			);
+
 	}
 
 }
